@@ -23,4 +23,5 @@ public class Publicacion {
     public String toString() {
         return "código:" + codigo + " título: " + titulo + " año: " + año;
     }
+  
 }
