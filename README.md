@@ -2,7 +2,7 @@ Ej7daw1m2
 =========
 Usuario Git-Hub grupo 2:
 daw1m2
-mañanajuan1
+mananajuan1
 
 
 Correo:
