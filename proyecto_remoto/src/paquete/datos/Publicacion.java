@@ -1,6 +1,6 @@
 package paquete.datos;
 
-public abstract class Publicacion implements Prestable {
+public abstract class Publicacion {
     private String codigo;
     private String titulo;
     private int año;
@@ -20,6 +20,16 @@ public abstract class Publicacion implements Prestable {
         return año;
     }
     
-    public abstract String toString() ;
-  
+    public String getTitulo() {
+    	return titulo;
+    }
+    
+    public String toString() {
+	    String mensaje = "";
+	    mensaje += "Codigo: " + getCodigo();
+	    mensaje += "\nTitulo: " + getTitulo();
+	    mensaje += "\nAño Publicacion: " + getAño();
+	    return mensaje;
+    }    	
+    
 }
