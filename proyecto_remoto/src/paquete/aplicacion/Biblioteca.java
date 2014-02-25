@@ -1,5 +1,7 @@
 package paquete.aplicacion;
 
+import paquete.datos.*;
+
 public class Biblioteca {
 	
 	private Libro[] coleccionLibros;
